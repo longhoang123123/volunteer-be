@@ -1,0 +1,29 @@
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Log file
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Python
+*.pyc
+__pycache__/
+env/
+venv/
+
+# IDE/Editor
+.idea/
+.vscode/
+*.iml
+
+# Tệp nhạy cảm
+.env
+*.key
+*.pem
+
+# Khác
+*.tmp

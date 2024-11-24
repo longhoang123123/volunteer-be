@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "demo-django-be"
+version = "0.1.0"
+description = ""
+authors = ["longhoang123123 <long_2051220101@dau.edu.vn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.7"
+djangorestframework = "^3.15.2"
+django-cors-headers = "^4.4.0"
+django-environ = "^0.11.2"
+djoser = "^2.2.3"
+djangorestframework-simplejwt = "^5.3.1"
+pyjwt = "^2.9.0"
+drf-yasg = "^1.21.8"
+django-jazzmin = "^3.0.1"
+psycopg2 = "^2.9.10"
+postgres = "^4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
